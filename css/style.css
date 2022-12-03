@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/anton-v23-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/anton-v23-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+ul,ol {
+  list-style: none;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+   
+}
+html{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    background-image: url(../images/burning\ man\ jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    
+}
+.header-container{
+    display: flex;
+    gap: 60px;
+
+}
+.header-img{
+   margin-top: 60px;
+}
+
+.header-list {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+
+
+}
+.nav{
+    display: flex;
+    padding-top: 71px;
+    gap: 654px;
+    flex-grow: 1;
+}
+.adress-tel{
+    color: #ffff;
+    font-family: 'Anton';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+text-align: right;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+    
+}
+
+.text {
+    text-decoration: none;
+    color: #ffff;
+    font-family: 'Anton';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+text-transform: uppercase;
+    
+}
+
+.burning {
+    color: #ffff;
+    text-transform: uppercase;
+   margin-top: 229px;
+   
+}
+
+.burning-text1{
+  
+left: 216px;
+top: 321px;
+
+font-family: 'Anton';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 45px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+}
+
+.burning-text2 {
+    
+left: 213px;
+top: 355px;
+
+font-family: 'Anton';
+font-style: 400px;
+font-weight: 400px;
+font-size: 100px;
+line-height: 151px;
+text-transform: uppercase;
+
+}
+
+.book-link {
+    Bacground-color: transparent;
+    padding: 18px 23px 18px 23px ;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: 1px solid #ffff;
+    color: #ffff;      
+    mt50     
+}
+
+.main {
+    flex-grow: 1;
+}
+.heading-event {
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    text-transform: uppercase;
+    margin-bottom: 58px;
+    margin-top: 113px;
+    color: #000000;
+
+}
+.event-item {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.event-list {
+   
+}
+.event-heading {
+    font-family: 'Anton';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 38px;
+text-transform: uppercase;
+color: #000000;
+}
+.event-paragriph {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: justify;
+color: #000000;
+
+}
+.event-paragriph-two {
+
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: justify;
+
+color: #000000;
+
+}
+
+.event-img {
+    display: flex;
+    gap: 30px;
+    margin-top: 67px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 55px;
+    margin-bottom: 80px;
+    margin-top: 114px;
+}
+
+.footer-link {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+
+color: #000000;
+
+}
